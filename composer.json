@@ -1,0 +1,33 @@
+{
+    "name": "letraceursnork/russian-license-plates",
+    "description": "A lightweight PHP library to parse, validate and extract information from Russian vehicle registration numbers (license plates). Supports modern formats, region codes and common use cases for web and backend applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LeTraceurSnork\\RussianLicensePlates\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LeTraceurSnork",
+            "email": "le_traceur_snork@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-mbstring": "*",
+        "avto-dev/static-references-data": "^3.18"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.2"
+    },
+    "scripts": {
+        "phpunit": "@php ./vendor/bin/phpunit ./tests --configuration phpunit.xml --no-coverage --color=always"
+    }
+}

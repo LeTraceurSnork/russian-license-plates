@@ -1,2 +1,7 @@
-# russian-license-plate
-A lightweight PHP library to parse, validate and extract information from Russian vehicle registration numbers (license plates). Supports modern formats, region codes and common use cases for web and backend applications.
+russian-license-plates
+======================
+
+# Парсер российских автомобильных номеров
+Лёгкая PHP-библиотека для парсинга и валидации российских государственных регистрационных знаков (автомобильных номеров).
+
+Извлекает регион, проверяет современные форматы, помогает удобно работать с номерами в ваших приложениях.
